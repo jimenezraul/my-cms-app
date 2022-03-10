@@ -13,7 +13,6 @@ db.connect((err) => {
     }
     console.log(data);
     if (err) throw err;
-    console.log("Database connected.");
     // Start the CMS
     new CMS().getMenu();
   });
